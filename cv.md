@@ -14,3 +14,6 @@ _*HTML_
 _*CSS_
 _*Git/GitHub_
 ***
+### Education
+Secondary, graduating from Psu University Economics Department
+*** 
