@@ -1,5 +1,6 @@
 # Rubik Antonyan
-***
+
+---
 
 ### Contact information
 __Address:__ _Hope, The City of Novopolotsk_  
