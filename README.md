@@ -1,1 +1,1 @@
-# rsschool-cv
+https://rubbbik.github.io/rsschool-cv/cv
