@@ -17,3 +17,6 @@ _*Git/GitHub_
 ### Education
 Secondary, graduating from Psu University Economics Department
 *** 
+### Languages:
+__English:__ _А2_
+__Russian__ : _Native_
