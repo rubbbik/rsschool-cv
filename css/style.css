@@ -119,3 +119,101 @@ line-height: 1.4em;
 .temp ul li .text3 {
     color:rgba(17, 156, 110, 0.473);  
 }
+.conter .right-sd {
+    position: relative;
+    background: #f7f7f7;
+    padding: 40px;
+    grid-area: right-sd;
+}
+
+
+.right-sd:last-child{
+  margin-bottom: 0;  
+}
+
+.title3 .text5 {
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+.title4 .text6 {
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+.title5 .text8 {
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+
+.text5{
+    color: #685206;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size:  16px; 
+    line-height: 24px;
+     margin: 0 0 24px; 
+     text-align: justify; 
+     text-justify: inter-word;
+}
+
+.title4{
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text6{
+    color: #685206;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size:  16px; 
+    line-height: 24px;
+     margin: 0 0 24px; 
+     text-align: justify; 
+     text-justify: inter-word;
+}
+
+.title5{
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text7{
+    color: #685206;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size:  16px; 
+    line-height: 24px;
+     margin: 0 0 24px; 
+     text-align: justify; 
+     text-justify: inter-word;
+}
+
+.title6{
+
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text8 {
+    color: #685206;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size:  16px; 
+    line-height: 24px;
+     margin: 0 0 24px; 
+     text-align: justify; 
+     text-justify: inter-word;
+}
