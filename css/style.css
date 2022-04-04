@@ -1,0 +1,72 @@
+*
+{
+margin: 0;
+padding: 0%;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+body{
+    background:#fffF ;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+
+.conter{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    margin: 35px;
+    grid-template-areas:
+    "left-sd right-sd"
+    "footer footer";
+    grid-template-rows: auto 55px;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 60px 30px 60px rgba(0, 0, 0, 0.5);
+}
+.conter .left-sd{
+    position: relative;
+    background: #263238;
+    padding: 40px;
+    grid-area: left-sd;
+}
+.proTex{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.proTex .imgB{
+    position: relative;
+    width: 200px;
+    height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+
+
+.proTex h2 {  /*меняем стили тексту "Rubik Antonyan Front-end developer" */
+    color: #f7f7f7;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+}
+.proTex h2 span{ /*текст Front-end developer*/
+    color: #9E9E9E;
+    font-size: 0.6em ;
+    font-weight: 400;
+}
+.contact {
+    padding-top: 40px;
+}
