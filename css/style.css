@@ -1,0 +1,229 @@
+*
+{
+margin: 0;
+padding: 0%;
+font-family: 'Poppins', sans-serif;
+box-sizing: border-box;
+}
+body{
+    background:#fffF ;
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+}
+
+
+.conter{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background: #fff;
+    display: grid;
+    margin: 35px;
+    grid-template-areas:
+    "left-sd right-sd"
+    "footer footer";
+    grid-template-rows: auto 55px;
+    grid-template-columns: 1fr 2fr;
+    box-shadow: 60px 30px 60px rgba(0, 0, 0, 0.5);
+}
+.conter .left-sd{
+    position: relative;
+    background: #263238;
+    padding: 40px;
+    grid-area: left-sd;
+}
+.proTex{
+position: relative;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding-bottom: 20px;
+border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.proTex .imgB{
+    position: relative;
+    width: 200px;
+    height: 200px;
+border-radius: 50%;
+overflow: hidden;
+}
+
+
+.proTex h2 {  /*меняем стили тексту "Rubik Antonyan Front-end developer" */
+    color: #f7f7f7;
+    font-size: 1.5em;
+    margin-top: 20px;
+    text-transform: uppercase;
+text-align: center;
+font-weight: 600;
+line-height: 1.4em;
+}
+.proTex h2 span{ /*текст Front-end developer*/
+    color: #9E9E9E;
+    font-size: 0.6em ;
+    font-weight: 400;
+}
+.contact {
+    padding-top: 40px;
+}
+.title{/*Contact изменяем стиль цвет*/
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+.contact ul{
+    position: relative;
+}
+.contact ul li {/* расположение и расстояние между номера почты адреса */
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .inf {
+    display: inline-block;/*ссылка на кнопки где номер почта и тд*/
+    width: 30px;
+    font-size: 28px;
+    color: antiquewhite;
+}
+.contact ul li .text{
+    color:rgba(202, 123, 109, 0.473);
+}
+
+.contact ul li .inf2 {
+    display: inline-block;/*ссылка на кнопки где номер почта и тд*/
+    width: 30px;
+    font-size: 28px;
+    color: rgb(35, 185, 173);
+}
+
+.contact ul li .text2{
+    color:rgba(10, 164, 202, 0.473);
+}
+
+
+.temp ul li .inf3{/*langueges изменяем */
+    display: inline-block;
+    width: 30px;
+    font-size: 28px;
+    color: rgb(15, 285, 173);
+}
+
+.temp ul li .text3 {
+    color:rgba(17, 156, 110, 0.473);  
+}
+.conter .right-sd {
+    position: relative;
+    background: #f7f7f7;
+    padding: 40px;
+    grid-area: right-sd;
+}
+
+
+.right-sd:last-child{
+  margin-bottom: 0;  
+}
+
+.title3 .text5 {
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+.title4 .text6 {
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+.title5 .text8 {
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+
+.text5{
+    color: #685206;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size:  16px; 
+    line-height: 24px;
+     margin: 0 0 24px; 
+     text-align: justify; 
+     text-justify: inter-word;
+}
+
+.title4{
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text6{
+    color: #685206;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size:  16px; 
+    line-height: 24px;
+     margin: 0 0 24px; 
+     text-align: justify; 
+     text-justify: inter-word;
+}
+
+.title5{
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text7{
+    color: #685206;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size:  16px; 
+    line-height: 24px;
+     margin: 0 0 24px; 
+     text-align: justify; 
+     text-justify: inter-word;
+}
+
+.title6{
+
+    color: #000000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+
+.text8 {
+    color: #685206;
+    font-family: ‘Helvetica Neue’, sans-serif; 
+    font-size:  16px; 
+    line-height: 24px;
+     margin: 0 0 24px; 
+     text-align: justify; 
+     text-justify: inter-word;
+}
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    font-weight: bold;
+    background-color: #F6F6F6;
+    width: 1000px;
+}
