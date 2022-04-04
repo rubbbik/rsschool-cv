@@ -70,3 +70,52 @@ line-height: 1.4em;
 .contact {
     padding-top: 40px;
 }
+.title{/*Contact изменяем стиль цвет*/
+    color: #f7f7f7;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    margin-bottom: 15px;
+}
+
+.contact ul{
+    position: relative;
+}
+.contact ul li {/* расположение и расстояние между номера почты адреса */
+    position: relative;
+    list-style: none;
+    margin: 10px 0;
+    cursor: pointer;
+}
+.contact ul li .inf {
+    display: inline-block;/*ссылка на кнопки где номер почта и тд*/
+    width: 30px;
+    font-size: 28px;
+    color: antiquewhite;
+}
+.contact ul li .text{
+    color:rgba(202, 123, 109, 0.473);
+}
+
+.contact ul li .inf2 {
+    display: inline-block;/*ссылка на кнопки где номер почта и тд*/
+    width: 30px;
+    font-size: 28px;
+    color: rgb(35, 185, 173);
+}
+
+.contact ul li .text2{
+    color:rgba(10, 164, 202, 0.473);
+}
+
+
+.temp ul li .inf3{/*langueges изменяем */
+    display: inline-block;
+    width: 30px;
+    font-size: 28px;
+    color: rgb(15, 285, 173);
+}
+
+.temp ul li .text3 {
+    color:rgba(17, 156, 110, 0.473);  
+}
