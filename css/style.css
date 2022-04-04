@@ -217,3 +217,13 @@ line-height: 1.4em;
      text-align: justify; 
      text-justify: inter-word;
 }
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    align-items: center;
+    font-weight: bold;
+    background-color: #F6F6F6;
+    width: 1000px;
+}
